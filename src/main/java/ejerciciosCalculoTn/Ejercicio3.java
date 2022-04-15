@@ -10,7 +10,7 @@ public class Ejercicio3 {
         int n = a[0].length-2;//3
         //3
         System.out.println(n);
-
+//i=n+1    y j=n
         while (i<=n && j<=n){//3
             if(a[i][j+1] < a[i+1][j]){//3
                 j++;//2
